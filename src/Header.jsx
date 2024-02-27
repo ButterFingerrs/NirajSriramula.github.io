@@ -38,7 +38,7 @@ function Header() {
     <Stack direction="row">
       <div className="mainnav">
         <div class="logo-wrap">
-          <Link to="/">
+          <a href="/">
             <span class="u-vhide">Back to the homepage</span>{" "}
             <span class="logo js-logo">
               <div class="logo__skirrid">
@@ -70,7 +70,7 @@ function Header() {
                 </div>
               </div>
             </span>
-          </Link>
+          </a>
         </div>
         <div class="menu-link">
           <button
@@ -189,15 +189,15 @@ function Header() {
                 </span>
               </li>
               <li class="primary-links__item">
-                <Link
+                <a
                   aria-current="page"
                   class="primary-links__link t-primary"
-                  to="/work"
+                  href="/work"
                   aria-describedby="desc_work"
                   reloadDocument={true}
                 >
                   Work
-                </Link>{" "}
+                </a>{" "}
                 <span id="desc_work" class="primary-links__summary">
                   My approach to development.
                 </span>

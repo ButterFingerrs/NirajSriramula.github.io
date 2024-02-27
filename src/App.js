@@ -27,21 +27,19 @@ class App extends React.Component {
   }
   render() {
     return (
-      <Router>
-        <div className="App">
-          <nav>
-            <Header />
-          </nav>
-          <div style={{marginLeft:"20%", marginRight:"20%"}}>
-            <Routes>
-              <Route path="/" exact component={LandingPage} />
-              <Route path="/work" component={Work} />
-              <Route path="/about" component={About} />
-              <Route path="/projects" component={Projects} />
-            </Routes>
-          </div>
+      <div className="App">
+        <nav>
+          <Header />
+        </nav>
+        <div style={{marginLeft:"20%", marginRight:"20%"}}>
+          <Routes>
+            <Route path="/" exact component={LandingPage} />
+            <Route path="/work" component={Work} />
+            <Route path="/about" component={About} />
+            <Route path="/projects" component={Projects} />
+          </Routes>
         </div>
-      </Router>
+      </div>
     );
   }
 }
