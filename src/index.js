@@ -38,9 +38,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // Implement code to
 
 root.render(
-  <BrowserRouter>
-    <App/>
-  </BrowserRouter>
+  <React.StrictMode>
+  <RouterProvider router={router} />
+  </React.StrictMode>
 );
 
 

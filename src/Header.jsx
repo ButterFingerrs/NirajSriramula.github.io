@@ -189,15 +189,15 @@ function Header() {
                 </span>
               </li>
               <li class="primary-links__item">
-                <a
+                <Link
                   aria-current="page"
                   class="primary-links__link t-primary"
-                  href="/work"
+                  to="/work"
                   aria-describedby="desc_work"
                   reloadDocument={true}
                 >
                   Work
-                </a>{" "}
+                </Link>{" "}
                 <span id="desc_work" class="primary-links__summary">
                   My approach to development.
                 </span>
